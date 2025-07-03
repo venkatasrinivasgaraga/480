@@ -6,17 +6,17 @@ class Config(object):
     # sucks Dude
     APP_ID = int(get_config("APP_ID", "20524455"))
     API_HASH = get_config("API_HASH", "03f1c29714a7ce9ed1819318427ea281")
-    LOG_CHANNEL = get_config("LOG_CHANNEL", "nkdkskjsbwhsk")
+    LOG_CHANNEL = get_config("LOG_CHANNEL", "hlogencoder")
     UPDATES_CHANNEL = get_config("UPDATES_CHANNEL", None) # Without `@` LOL
      # Get these values from my.telegram.org
     AUTH_USERS = set(
         int(x) for x in get_config(
-            "AUTH_USERS", "5090651635 -100").split()
+            "AUTH_USERS", "1074804932 -1004946025418").split()
     )
 # array , simplest method was AUTH_USERS = [] ; AUTH_USERS.append(your telegram id) 🤣
     # array to store the channel ID who are authorized to use the bot
     # dont u fucking remove this id 😤
-    TG_BOT_TOKEN = get_config("TG_BOT_TOKEN", "")
+    TG_BOT_TOKEN = get_config("TG_BOT_TOKEN", "8102040984:AAE2HIbc5ni9kQe0uU6p6b43eeKMlnxyuo0")
     # the download location, where the HTTP Server runs
     DOWNLOAD_LOCATION = get_config("DOWNLOAD_LOCATION", "/app/downloads")
     # Telegram maximum file upload size
